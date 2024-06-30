@@ -1,11 +1,11 @@
 {
     "configurations": [
         {
-            "name": "C/C++: cl.exe build and debug active file",
+            "name": "scc",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\scc.exe",
-            "args": [],
+            "program": "${workspaceFolder}\\Debug\\scc.exe",
+            "args": ["-lmsvcrt", "-o", "${workspaceFolder}\\test\\a.exe", "${workspaceFolder}\\test\\a.c"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
