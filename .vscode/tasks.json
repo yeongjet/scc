@@ -2,14 +2,16 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: cl.exe build active file",
+            "label": "build",
             "command": "cl.exe",
             "args": [
                 "/Zi",
                 "/EHsc",
                 "/nologo",
-                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
+                "/I${workspaceFolder}\\*.h",
+                "/Fo${workspaceFolder}\\x64\\Debug\\",
+                "/Fe${workspaceFolder}\\scc.exe",
+                "${workspaceFolder}\\*.c"
             ],
             "options": {
                 "cwd": "${fileDirname}"
