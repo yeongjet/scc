@@ -10,6 +10,7 @@
                 "/nologo",
                 "/I${workspaceFolder}\\*.h",
                 "/Fo${workspaceFolder}\\Debug\\",
+                "/Fd${workspaceFolder}\\Debug\\",
                 "/Fe${workspaceFolder}\\scc.exe",
                 "${workspaceFolder}\\*.c"
             ],
