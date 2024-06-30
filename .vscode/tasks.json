@@ -9,7 +9,7 @@
                 "/EHsc",
                 "/nologo",
                 "/I${workspaceFolder}\\*.h",
-                "/Fo${workspaceFolder}\\x64\\Debug\\",
+                "/Fo${workspaceFolder}\\Debug\\",
                 "/Fe${workspaceFolder}\\scc.exe",
                 "${workspaceFolder}\\*.c"
             ],
