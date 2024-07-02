@@ -542,3 +542,7 @@ void add_runtime_libs();
 void coffrelocs_fixup();
 char *get_lib_path();
 /*******************************outpe.h end****************************/
+
+/* helper.h start*/
+void print_tktable();
+/* helper.h end*/

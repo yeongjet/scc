@@ -327,8 +327,8 @@ void init_lex()
 
 	dynarray_init(&tktable,8);
     for (tp = &keywords[0]; tp->spelling != NULL; tp++)
-			tkword_direct_insert(tp);	
-		
+			tkword_direct_insert(tp);
+	//print_tktable();
 }
 
 /***********************************************************

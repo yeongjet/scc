@@ -75,6 +75,7 @@ Symbol *sym_push(int v, Type *type, int r, int c)
     // 不记录结构体成员及匿名符号
 	if((v & SC_STRUCT) || v < SC_ANOM)
 	{
+        print_tktable();
         // 更新单词sym_struct或sym_identifier字段
         ts = (TkWord*)tktable.data[(v & ~SC_STRUCT)];
         if (v & SC_STRUCT)
