@@ -1,2 +1,4 @@
-Debug/*.obj
+Debug/*
+!Debug/lib
 **/*.exe
+launch-vscode.bat.lnk
