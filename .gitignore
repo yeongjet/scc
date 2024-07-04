@@ -1,4 +1,4 @@
-Debug/*
-!Debug/lib
 *.exe
 launch-vscode.bat.lnk
+Debug/*
+!Debug/lib
